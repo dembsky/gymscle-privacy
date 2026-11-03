@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gymscle - Privacy Policy</title>
+<!-- This page moved to gymscle.com. GitHub Pages cannot send a real 301, so
+     this is the next best thing: an instant meta refresh, a canonical pointing
+     at the new address, and a plain link for anyone whose browser blocks the
+     refresh. The old URL is still printed in the App Store listing until the
+     next app version, which is why this file stays here. -->
+<link rel="canonical" href="https://gymscle.com/privacy">
+<meta http-equiv="refresh" content="0; url=https://gymscle.com/privacy">
+<meta name="robots" content="noindex">
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -11,114 +19,11 @@
     max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; color: #1c1c1e; background: #fff;
   }
   @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #000; } a { color: #0a84ff; } }
-  h1 { font-size: 32px; margin-bottom: 4px; }
-  h2 { font-size: 20px; margin-top: 36px; }
-  .updated { color: #8e8e93; margin-top: 0; }
   a { color: #007aff; }
-  ul { padding-left: 22px; }
-  li { margin: 6px 0; }
 </style>
+<script>location.replace("https://gymscle.com/privacy");</script>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p class="updated">Gymscle &middot; Last updated: November 2, 2026</p>
-
-  <p>Gymscle is a workout tracker. This policy explains what happens to your data when you use the app. The short version: the app keeps your data on your own device and in your private iCloud, and the developer does not collect, see, or share any of it.</p>
-
-  <p>Practical questions about how the app works are answered in the <a href="faq.html">FAQ</a>.</p>
-
-  <h2>What data the app stores</h2>
-  <p>Gymscle stores the information you create while using it, such as:</p>
-  <ul>
-    <li>Training plans, workouts, and your training history, including any effort tags (RIR) you add to sets</li>
-    <li>Personal records, goals, achievements, and progress statistics</li>
-    <li>Check-ins: the written summaries you ask for on the Progress tab, kept as a journal together with the numbers they describe</li>
-    <li>Body measurements you choose to log (weight, body fat percentage, and tape measurements)</li>
-    <li>Progress photos you take or import, with their dates and pose tags</li>
-    <li>App preferences (your name or nickname, accent color, light or dark appearance, units, and notification settings)</li>
-    <li>Your biological sex, only if you answer that question for the DOTS strength score. It is kept on this device only &mdash; never synced to iCloud, never exported &mdash; and can be set back to Not set in the Body settings at any time</li>
-  </ul>
-
-  <h2>Where your data is stored</h2>
-  <p>All of this data is stored locally on your device. If you are signed in to iCloud, the data also syncs to your own private iCloud (Apple CloudKit) so it is available across your devices. Syncing uses Apple's own notification service to tell your devices that something changed; the developer is not part of that. This iCloud data lives in your personal account and is handled under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. The developer of Gymscle has no access to your iCloud data.</p>
-  <p>Progress photos are the one exception: they never leave your device unless you turn on their own backup switch, described in the next section.</p>
-  <p>You can see everything the app has stored at any time in Settings, under Data, on the Your data screen.</p>
-
-  <h2>Progress photos</h2>
-  <p>You can take or import physique photos on the Body screen. These photos are stored inside Gymscle, on your device; they never appear in your camera roll. Taking a photo opens the camera only for that shot, and importing uses Apple's system picker, which hands the app only the photos you pick. When a photo comes in, the app reads its capture date to place it on your timeline and then re-encodes the image, which removes the original file's hidden metadata &mdash; such as location and camera details &mdash; before it is stored.</p>
-  <p>Progress photos can optionally be backed up to iCloud. This works as follows:</p>
-  <ul>
-    <li><strong>Off by default.</strong> Until you turn the switch on &mdash; in Settings, under Data (Back up progress photos), or on the sheet shown at your first photo &mdash; photos exist only on your device and are lost with it.</li>
-    <li><strong>Your private database only.</strong> With the switch on, photos are copied to your own private iCloud (Apple CloudKit) database. Only your iCloud account can read them; the developer has no access to them. They count against your iCloud storage.</li>
-    <li><strong>The switch works both ways.</strong> Turning it off deletes every photo from iCloud again. Deleting a photo in the app also deletes its iCloud copy, and erasing all data with Delete data removes the photos from iCloud as well. On a new phone with the switch on, your photos are restored from iCloud.</li>
-  </ul>
-  <p>Progress photos are not included in the exported backup file; the iCloud backup switch is their only backup.</p>
-
-  <h2>Apple Health</h2>
-  <p>Gymscle can connect to Apple Health in four ways. Each one is optional, asks for your permission first, and can be turned on or off at any time in the iOS Settings app, under Health.</p>
-  <ul>
-    <li><strong>Workout history.</strong> Gymscle reads heart rate, calories, and workout duration from workouts you recorded (for example, on an Apple Watch) so it can show them next to your matching sessions in your workout history.</li>
-    <li><strong>Recording on Apple Watch.</strong> If you train with the Gymscle app on Apple Watch, it reads your live heart rate and calories during the session and, when you finish, saves the workout to Apple Health &mdash; with the heart rate, active calories, and resting calories the watch measured &mdash; so it counts toward your activity rings.</li>
-    <li><strong>Sleep.</strong> Gymscle reads your sleep (time asleep and, when your source records them, the deep, core and REM stages) so it can show how you slept before a session: as one line on a workout's preview and in its history detail, and on the Sleep screen under Me, which lists your last fourteen nights. It never scores your sleep, never tells you whether to train, and never writes sleep to Apple Health.</li>
-    <li><strong>Body sync.</strong> If you turn on body sync, Gymscle reads your weight and body fat from Apple Health to show them on the Body screen, and saves the weight and body fat readings you log in Gymscle back to Apple Health. Nothing else is ever written.</li>
-  </ul>
-  <p>Data read from Apple Health is shown only on your device. Gymscle never copies it into iCloud, never sends it to the developer or any third party, and never uses it for advertising or marketing.</p>
-
-  <h2>Apple Watch</h2>
-  <p>The Gymscle watch app mirrors your workout between your iPhone and Apple Watch. This data travels directly between your own two devices using Apple's device-to-device connection. No server is involved.</p>
-
-  <h2>Camera, photos, and files</h2>
-  <p>Besides progress photos, described above, the camera and photo picker are used in two more places: reading a training plan, and putting a photo on a workout share card. Gymscle can read a training plan you already have on paper, as a photo, or as a PDF, so you do not have to type it in. You start each of these yourself, from the import button on the Training tab.</p>
-  <ul>
-    <li><strong>Camera.</strong> If you choose to scan a printed plan, the camera opens only for that scan. The pages exist while the app reads them and are then discarded &mdash; Gymscle does not store them, does not save them to your photo library, and does not send them anywhere.</li>
-    <li><strong>Photos.</strong> Choosing a photo uses Apple's system picker, which hands the app only the images you pick. Gymscle has no access to the rest of your photo library and cannot browse it.</li>
-    <li><strong>PDF files.</strong> A PDF you pick is read from where it sits, in memory only. Gymscle does not copy it into the app or keep it afterwards.</li>
-  </ul>
-  <p>The reading itself &mdash; recognising the text and turning the tables into days, exercises, sets, and reps &mdash; happens entirely on your device, using Apple's on-device text recognition. No cloud service is involved and no account is needed. Only the plan you approve on the review screen is saved; the pictures and the document are not.</p>
-  <p>You can also import a plan code &mdash; or, from Settings, a history code &mdash; from the clipboard. The app reads the clipboard only at the moment you tap that option.</p>
-
-  <h2>Apple Intelligence</h2>
-  <p>On iPhones that support Apple Intelligence, Gymscle uses the language model built into iOS for one small job: turning the numbers about your training into a few written sentences &mdash; on the Summary card, and in the check-ins you ask for on the Progress tab. A check-in is saved to your journal, with its numbers, and syncs with the rest of your data. The feature is optional and can be switched off in Settings, under Apple Intelligence. Reading an imported plan does not use the language model; it relies on the on-device text recognition described above.</p>
-  <ul>
-    <li>The work is done by the language model built into iOS, running on your device. Gymscle does not use Private Cloud Compute or any other remote model.</li>
-    <li>The model receives only a short list of already-computed numbers about your training &mdash; sessions, volume, session length, records, streak, and the names and estimated one-rep maxes of the exercises being described. It never receives your name, your body measurements, your photos, or anything from Apple Health. Nothing is sent off the device, and no account or internet connection is used for it.</li>
-    <li>Your training data is never used to train any model.</li>
-    <li>With the feature off, or on a device that does not support it, the app works the same; the Summary card simply shows the numbers without the sentences, and no new check-in can be written.</li>
-  </ul>
-
-  <h2>Widgets and Live Activities</h2>
-  <p>The Home Screen widgets and the workout Live Activity read your own data on your device to display it. They do not send anything anywhere. Note that a Live Activity can appear on your Lock Screen, so what it shows is visible to anyone looking at your phone.</p>
-
-  <h2>Siri and Shortcuts</h2>
-  <p>Gymscle offers five optional shortcuts &mdash; starting a workout, checking your next session, logging a body weight, asking for an exercise record, and checking your streak. They run through Apple&rsquo;s App Intents framework, entirely on your device: nothing you say to Siri reaches the developer, and the shortcuts only read and write the same local data the app itself uses.</p>
-
-  <h2>Motion sensors</h2>
-  <p>Two animated scenes &mdash; the 3D badge on the Achievements screen and the opening of the onboarding &mdash; read your iPhone's motion sensors (accelerometer and gyroscope) so the scene can react when you tilt the phone. The readings only drive the animation in that moment; they are not stored, analysed, or sent anywhere.</p>
-
-  <h2>What the developer collects</h2>
-  <p>Nothing. Gymscle has no accounts, no login, no analytics, no advertising, no tracking, and no third-party SDKs. There is no Gymscle server. Your data is never sent to the developer or to any third party.</p>
-
-  <h2>Notifications</h2>
-  <p>If you enable them, the app schedules local notifications on your device (rest timer alerts, an optional daily reminder, and optional weigh-in reminders). These are generated on your device and are not sent through any external service for tracking purposes.</p>
-
-  <h2>Links to other websites</h2>
-  <p>The app may open external web pages (for example, exercise source links) in an in-app browser. Those websites are operated by others and have their own privacy policies.</p>
-
-  <h2>Importing and exporting your data</h2>
-  <p>You can export your data &mdash; training history, plans, body measurements, goals, achievements, and weigh-in reminders &mdash; to a file or a code, and import it back, entirely under your control. Progress photos and check-ins are not included in the export. These files are created and shared only when you choose to, using your device's standard share and file tools.</p>
-  <p>You can also share your workouts, achievements, or profile as an image card. A workout card can carry a photo you take or pick for it; that photo is used only on the card, unless you choose to keep it as a progress photo afterwards. The image is created on your device and shared or saved only when you choose to. If you save a card, Gymscle can only add images to your photo library; it cannot read or browse it.</p>
-  <p>Sharing a plan produces a plain text plan code that you send yourself, through whichever app you choose. It travels only where you send it.</p>
-
-  <h2>Deleting your data</h2>
-  <p>You control your data. You can delete individual items in the app, or erase everything from Settings, under Data, with Delete data &mdash; which also removes it from iCloud and from your other devices, including any progress photos you backed up there. Two things are left in place: your preferences, including the biological sex answer, which you can clear in the Body settings; and your check-ins, which Delete data does not remove yet &mdash; delete them one by one in the journal on the Progress tab, and each deletion also removes the entry from iCloud. Deleting the app removes the copy on that device. Data stored in iCloud can also be removed through your device's iCloud settings.</p>
-
-  <h2>Children</h2>
-  <p>Gymscle is not directed at children and does not knowingly collect any personal information from anyone.</p>
-
-  <h2>Changes to this policy</h2>
-  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
-
-  <h2>Contact</h2>
-  <p>Questions about this policy: <a href="mailto:time4event@gmail.com">time4event@gmail.com</a>.</p>
+  <p>This page has moved to <a href="https://gymscle.com/privacy">https://gymscle.com/privacy</a>.</p>
 </body>
 </html>
